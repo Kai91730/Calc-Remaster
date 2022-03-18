@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1D0BD627E44A21003851CE /* CalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D0BD527E44A21003851CE /* CalcView.swift */; };
 		2A90078427E06B0C0013F2B0 /* NumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90078327E06B0C0013F2B0 /* NumberType.swift */; };
 		2A90078627E06B3A0013F2B0 /* OperatorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90078527E06B3A0013F2B0 /* OperatorTypes.swift */; };
 		2A9C71D9273E4D9500163B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9C71D8273E4D9500163B11 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A1D0BD527E44A21003851CE /* CalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcView.swift; sourceTree = "<group>"; };
 		2A90078327E06B0C0013F2B0 /* NumberType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberType.swift; sourceTree = "<group>"; };
 		2A90078527E06B3A0013F2B0 /* OperatorTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorTypes.swift; sourceTree = "<group>"; };
 		2A9C71D5273E4D9500163B11 /* Calc Remaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calc Remaster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 		2A90078A27E06C590013F2B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2A1D0BD527E44A21003851CE /* CalcView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				2A90078627E06B3A0013F2B0 /* OperatorTypes.swift in Sources */,
 				2A90078427E06B0C0013F2B0 /* NumberType.swift in Sources */,
 				2A9C71DB273E4D9500163B11 /* SceneDelegate.swift in Sources */,
+				2A1D0BD627E44A21003851CE /* CalcView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
