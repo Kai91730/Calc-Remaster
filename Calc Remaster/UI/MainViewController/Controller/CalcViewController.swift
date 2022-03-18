@@ -13,7 +13,6 @@ class CalcViewController: UIViewController {
 
     private let mainView: CalcView = CalcView()
     
-    //Decimal?
     private var resultNumber: Decimal? = 0
     private var currentNumber: Decimal = 0
     private var previousNumber: Decimal = 0
@@ -207,9 +206,6 @@ class CalcViewController: UIViewController {
         var formattedString = ""
         
         let formatter = NumberFormatter()
-//        formatter.usesSignificantDigits = true
-//        formatter.maximumFractionDigits = 4
-//        formatter.maximumSignificantDigits = 4
         formatter.allowsFloats = true
         formatter.numberStyle = .decimal
         formatter.groupingSize = 3
@@ -218,12 +214,6 @@ class CalcViewController: UIViewController {
         if let nsNumberOfString = formatter.number(from: string) {
             formattedString = formatter.string(from: nsNumberOfString) ?? ""
         }
-        
-//        var h:Decimal = 123456789
-//        print(h.significand)
-//        let dd = NSDecimalNumber(value: h)
-//        let anotherNumber = dd.floatValue
-//            print(anotherNumber)
         
         return formattedString
     }
